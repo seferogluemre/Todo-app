@@ -1,0 +1,36 @@
+body {
+    background-color: #cb6363;
+}
+
+/* ::placeholder {} */
+
+.container {
+    max-width: 400px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos {
+    display: flex;
+
+    align-items: center;
+}
+
+.todos li {
+    background: #D87E7E;
+    width: 400px;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
